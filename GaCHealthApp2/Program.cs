@@ -12,6 +12,7 @@ namespace GaCHealthApp2
 {
     public class Program
     {
+        // git test
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
