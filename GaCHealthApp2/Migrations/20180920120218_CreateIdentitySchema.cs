@@ -16,8 +16,6 @@ namespace GaCHealthApp2.Migrations
                     Name = table.Column<string>(maxLength: 256, nullable: true),
                     NormalizedName = table.Column<string>(maxLength: 256, nullable: true),
                     ConcurrencyStamp = table.Column<string>(nullable: true)
-
-                    //test
                 },
                 constraints: table =>
                 {
